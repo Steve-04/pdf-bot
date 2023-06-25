@@ -208,9 +208,9 @@ export default function Home() {
                                     <ReactMarkdown linkTarget="_blank">
                                       {doc.pageContent}
                                     </ReactMarkdown>
-                                    <p className="mt-2">
+                                    {/* <p className="mt-2">
                                       <b>Source:</b> {doc.metadata.source}
-                                    </p>
+                                    </p> */}
                                   </AccordionContent>
                                 </AccordionItem>
                               </div>
